@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8106DE7721BAF66C00622315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8106DE7621BAF66C00622315 /* AppDelegate.swift */; };
+		8106DE7921BAF66C00622315 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8106DE7821BAF66C00622315 /* ViewController.swift */; };
+		8106DE7C21BAF66C00622315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8106DE7A21BAF66C00622315 /* Main.storyboard */; };
+		8106DE7F21BAF66C00622315 /* MeisterKoch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8106DE7D21BAF66C00622315 /* MeisterKoch.xcdatamodeld */; };
+		8106DE8121BAF67100622315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8106DE8021BAF67100622315 /* Assets.xcassets */; };
+		8106DE8421BAF67100622315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8106DE8221BAF67100622315 /* LaunchScreen.storyboard */; };
+		8106DE8F21BAF67200622315 /* MeisterKochTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8106DE8E21BAF67200622315 /* MeisterKochTests.swift */; };
+		8106DE9A21BAF67200622315 /* MeisterKochUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8106DE9921BAF67200622315 /* MeisterKochUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8106DE8B21BAF67200622315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8106DE6B21BAF66C00622315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8106DE7221BAF66C00622315;
+			remoteInfo = MeisterKoch;
+		};
+		8106DE9621BAF67200622315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8106DE6B21BAF66C00622315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8106DE7221BAF66C00622315;
+			remoteInfo = MeisterKoch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8106DE7321BAF66C00622315 /* MeisterKoch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeisterKoch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8106DE7621BAF66C00622315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8106DE7821BAF66C00622315 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8106DE7B21BAF66C00622315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8106DE7E21BAF66C00622315 /* MeisterKoch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeisterKoch.xcdatamodel; sourceTree = "<group>"; };
+		8106DE8021BAF67100622315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8106DE8321BAF67100622315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8106DE8521BAF67100622315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8106DE8A21BAF67200622315 /* MeisterKochTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeisterKochTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8106DE8E21BAF67200622315 /* MeisterKochTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeisterKochTests.swift; sourceTree = "<group>"; };
+		8106DE9021BAF67200622315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8106DE9521BAF67200622315 /* MeisterKochUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeisterKochUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8106DE9921BAF67200622315 /* MeisterKochUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeisterKochUITests.swift; sourceTree = "<group>"; };
+		8106DE9B21BAF67200622315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8106DE7021BAF66C00622315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8106DE8721BAF67200622315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8106DE9221BAF67200622315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8106DE6A21BAF66C00622315 = {
+			isa = PBXGroup;
+			children = (
+				8106DE7521BAF66C00622315 /* MeisterKoch */,
+				8106DE8D21BAF67200622315 /* MeisterKochTests */,
+				8106DE9821BAF67200622315 /* MeisterKochUITests */,
+				8106DE7421BAF66C00622315 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8106DE7421BAF66C00622315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8106DE7321BAF66C00622315 /* MeisterKoch.app */,
+				8106DE8A21BAF67200622315 /* MeisterKochTests.xctest */,
+				8106DE9521BAF67200622315 /* MeisterKochUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8106DE7521BAF66C00622315 /* MeisterKoch */ = {
+			isa = PBXGroup;
+			children = (
+				8106DE7621BAF66C00622315 /* AppDelegate.swift */,
+				8106DE7821BAF66C00622315 /* ViewController.swift */,
+				8106DE7A21BAF66C00622315 /* Main.storyboard */,
+				8106DE8021BAF67100622315 /* Assets.xcassets */,
+				8106DE8221BAF67100622315 /* LaunchScreen.storyboard */,
+				8106DE8521BAF67100622315 /* Info.plist */,
+				8106DE7D21BAF66C00622315 /* MeisterKoch.xcdatamodeld */,
+			);
+			path = MeisterKoch;
+			sourceTree = "<group>";
+		};
+		8106DE8D21BAF67200622315 /* MeisterKochTests */ = {
+			isa = PBXGroup;
+			children = (
+				8106DE8E21BAF67200622315 /* MeisterKochTests.swift */,
+				8106DE9021BAF67200622315 /* Info.plist */,
+			);
+			path = MeisterKochTests;
+			sourceTree = "<group>";
+		};
+		8106DE9821BAF67200622315 /* MeisterKochUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8106DE9921BAF67200622315 /* MeisterKochUITests.swift */,
+				8106DE9B21BAF67200622315 /* Info.plist */,
+			);
+			path = MeisterKochUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8106DE7221BAF66C00622315 /* MeisterKoch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8106DE9E21BAF67200622315 /* Build configuration list for PBXNativeTarget "MeisterKoch" */;
+			buildPhases = (
+				8106DE6F21BAF66C00622315 /* Sources */,
+				8106DE7021BAF66C00622315 /* Frameworks */,
+				8106DE7121BAF66C00622315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeisterKoch;
+			productName = MeisterKoch;
+			productReference = 8106DE7321BAF66C00622315 /* MeisterKoch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8106DE8921BAF67200622315 /* MeisterKochTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8106DEA121BAF67200622315 /* Build configuration list for PBXNativeTarget "MeisterKochTests" */;
+			buildPhases = (
+				8106DE8621BAF67200622315 /* Sources */,
+				8106DE8721BAF67200622315 /* Frameworks */,
+				8106DE8821BAF67200622315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8106DE8C21BAF67200622315 /* PBXTargetDependency */,
+			);
+			name = MeisterKochTests;
+			productName = MeisterKochTests;
+			productReference = 8106DE8A21BAF67200622315 /* MeisterKochTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8106DE9421BAF67200622315 /* MeisterKochUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8106DEA421BAF67200622315 /* Build configuration list for PBXNativeTarget "MeisterKochUITests" */;
+			buildPhases = (
+				8106DE9121BAF67200622315 /* Sources */,
+				8106DE9221BAF67200622315 /* Frameworks */,
+				8106DE9321BAF67200622315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8106DE9721BAF67200622315 /* PBXTargetDependency */,
+			);
+			name = MeisterKochUITests;
+			productName = MeisterKochUITests;
+			productReference = 8106DE9521BAF67200622315 /* MeisterKochUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8106DE6B21BAF66C00622315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nasim Ahmed";
+				TargetAttributes = {
+					8106DE7221BAF66C00622315 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8106DE8921BAF67200622315 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8106DE7221BAF66C00622315;
+					};
+					8106DE9421BAF67200622315 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8106DE7221BAF66C00622315;
+					};
+				};
+			};
+			buildConfigurationList = 8106DE6E21BAF66C00622315 /* Build configuration list for PBXProject "MeisterKoch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8106DE6A21BAF66C00622315;
+			productRefGroup = 8106DE7421BAF66C00622315 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8106DE7221BAF66C00622315 /* MeisterKoch */,
+				8106DE8921BAF67200622315 /* MeisterKochTests */,
+				8106DE9421BAF67200622315 /* MeisterKochUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8106DE7121BAF66C00622315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8106DE8421BAF67100622315 /* LaunchScreen.storyboard in Resources */,
+				8106DE8121BAF67100622315 /* Assets.xcassets in Resources */,
+				8106DE7C21BAF66C00622315 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8106DE8821BAF67200622315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8106DE9321BAF67200622315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8106DE6F21BAF66C00622315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8106DE7F21BAF66C00622315 /* MeisterKoch.xcdatamodeld in Sources */,
+				8106DE7921BAF66C00622315 /* ViewController.swift in Sources */,
+				8106DE7721BAF66C00622315 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8106DE8621BAF67200622315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8106DE8F21BAF67200622315 /* MeisterKochTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8106DE9121BAF67200622315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8106DE9A21BAF67200622315 /* MeisterKochUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8106DE8C21BAF67200622315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8106DE7221BAF66C00622315 /* MeisterKoch */;
+			targetProxy = 8106DE8B21BAF67200622315 /* PBXContainerItemProxy */;
+		};
+		8106DE9721BAF67200622315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8106DE7221BAF66C00622315 /* MeisterKoch */;
+			targetProxy = 8106DE9621BAF67200622315 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8106DE7A21BAF66C00622315 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8106DE7B21BAF66C00622315 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8106DE8221BAF67100622315 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8106DE8321BAF67100622315 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8106DE9C21BAF67200622315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8106DE9D21BAF67200622315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8106DE9F21BAF67200622315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2FY5AEHQW;
+				INFOPLIST_FILE = MeisterKoch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasimahmed.meisterkoch.MeisterKoch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8106DEA021BAF67200622315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2FY5AEHQW;
+				INFOPLIST_FILE = MeisterKoch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasimahmed.meisterkoch.MeisterKoch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8106DEA221BAF67200622315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2FY5AEHQW;
+				INFOPLIST_FILE = MeisterKochTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasimahmed.meisterkoch.MeisterKochTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeisterKoch.app/MeisterKoch";
+			};
+			name = Debug;
+		};
+		8106DEA321BAF67200622315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2FY5AEHQW;
+				INFOPLIST_FILE = MeisterKochTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasimahmed.meisterkoch.MeisterKochTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeisterKoch.app/MeisterKoch";
+			};
+			name = Release;
+		};
+		8106DEA521BAF67200622315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2FY5AEHQW;
+				INFOPLIST_FILE = MeisterKochUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasimahmed.meisterkoch.MeisterKochUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeisterKoch;
+			};
+			name = Debug;
+		};
+		8106DEA621BAF67200622315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2FY5AEHQW;
+				INFOPLIST_FILE = MeisterKochUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasimahmed.meisterkoch.MeisterKochUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeisterKoch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8106DE6E21BAF66C00622315 /* Build configuration list for PBXProject "MeisterKoch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8106DE9C21BAF67200622315 /* Debug */,
+				8106DE9D21BAF67200622315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8106DE9E21BAF67200622315 /* Build configuration list for PBXNativeTarget "MeisterKoch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8106DE9F21BAF67200622315 /* Debug */,
+				8106DEA021BAF67200622315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8106DEA121BAF67200622315 /* Build configuration list for PBXNativeTarget "MeisterKochTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8106DEA221BAF67200622315 /* Debug */,
+				8106DEA321BAF67200622315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8106DEA421BAF67200622315 /* Build configuration list for PBXNativeTarget "MeisterKochUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8106DEA521BAF67200622315 /* Debug */,
+				8106DEA621BAF67200622315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8106DE7D21BAF66C00622315 /* MeisterKoch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8106DE7E21BAF66C00622315 /* MeisterKoch.xcdatamodel */,
+			);
+			currentVersion = 8106DE7E21BAF66C00622315 /* MeisterKoch.xcdatamodel */;
+			path = MeisterKoch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8106DE6B21BAF66C00622315 /* Project object */;
+}
